@@ -9,11 +9,11 @@ describe("what-is-a-test", () => {
     });
   });
 
-  describe("Height", () => 
-    (is less than 40 and greater than 0, () => {
+  describe("Height", () => {
+    it(" 74 to be less than 40 ", () => {
       expect(height).toBeMoreThan(0)
-      expect(70).toBeLessThan(40);
-    }));
+      expect(74).toBeLessThan(40);
+    });
   });
 
   describe("Message", () => {
